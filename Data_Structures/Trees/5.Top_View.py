@@ -20,23 +20,23 @@ class Queue:
 	def size(self):
 		return(len(self.items))
 
-class Node:
-	def __init__(self, data=None):
-		self.data =  data
-		self.left = None
-		self.right = None
-
 def topView(root):
-  #Write your code here
-  if root is None:
-	  return
-  m = {}
-  q = queue()
-  q.enqueue({root.val, 0})
-
-  while q.isEmpty() is False:
-
-	  pass
-
-if __name__ == "__main__":
-	topView(root)
+	#Write your code here
+	if root is None:
+		return
+	m = set({})
+	topview = []
+	q = Queue()
+	q.enqueue((root, 0))
+	while q.isEmpty() is False:
+		node , hd = q.dequeue();
+		if hd not in m:
+			topview.append((node.data, hd))
+			m.add(hd)
+		if node.left is not None:
+			q.enqueue((node.left, hd - 1))
+		if node.right is not None:
+			q.enqueue((node.right, hd + 1))
+	topview = sorted(topview, key=lambda x: x[1])
+	for i in topview:
+		print(i[0]),
