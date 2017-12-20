@@ -1,23 +1,33 @@
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
-#    1.Preorder_Traversal.py                            :+:      :+:    :+:    #
+#    2.Equal.py                                         :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
 #    By: kcheung <kcheung@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2017/11/28 20:40:14 by kcheung           #+#    #+#              #
-#    Updated: 2017/11/28 21:14:38 by kcheung          ###   ########.fr        #
+#    Created: 2017/12/18 17:48:03 by kcheung           #+#    #+#              #
+#    Updated: 2017/12/18 18:08:20 by kcheung          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
-"""
-Node is defined as
-self.left (the left child of the node)
-self.right (the right child of the node)
-self.data (the value of the node)
-"""
-def preOrder(root):
-	if root is None:
-		return
-	print(root.data),
-	preOrder(root.left)
-	preOrder(root.right)
+
+#!/bin/python3
+
+def Equal(colleaguesChocolate, n, give):
+	give = [1,2,5]
+
+	for g in give:
+		for i in range(n):
+			exclude = i
+			for j in range(n):
+				if j == i:
+					pass
+				colleaguesChocolate[
+	
+	pass
+
+t = int(input())
+n = int(input())
+test = []
+for i in range(n):
+	test.append(list(map(int, input().strip().split(' '))))
+
