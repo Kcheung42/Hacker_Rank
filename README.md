@@ -21,17 +21,17 @@
 | Easy      | [Dynamic Array](https://www.hackerrank.com/challenges/sparse-arrays/problem)            | [Python](https://github.com/RamboBambo/Hacker_Rank/blob/master/Data_Structures/Array/Dynamic_Array.py) |      |       | 15        |
 
 ## Linked List
-| Dificulty | Title                                                                                                        | Solution                                                                                                    | Time | Space | Max Score |
-|-----------|--------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|------|-------|-----------|
-| Medium    | [Left Rotation](https://www.hackerrank.com/challenges/detect-whether-a-linked-list-contains-a-cycle/problem) | [Python](https://github.com/RamboBambo/Hacker_Rank/blob/master/Data_Structures/LinkList/Cycle_Detection.py) |      |       | 20        |
-| Easy      | [Delete a Node](https://www.hackerrank.com/challenges/delete-a-node-from-a-linked-list/problem)              | [Python](https://github.com/RamboBambo/Hacker_Rank/blob/master/Data_Structures/LinkList/Delete_a_Node.py)   |      |       | 20        |
+| Dificulty | Title                                                                                                       | Solution                                                                                                       | Time | Space | Max Score |
+|-----------|-------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|------|-------|-----------|
+| Medium    | [Cycle Detect](https://www.hackerrank.com/challenges/detect-whether-a-linked-list-contains-a-cycle/problem) | [Python](https://github.com/RamboBambo/Hacker_Rank/blob/master/Data_Structures/Linked_List/Cycle_Detection.py) |      |       | 20        |
+| Easy      | [Delete a Node](https://www.hackerrank.com/challenges/delete-a-node-from-a-linked-list/problem)             | [Python](https://github.com/RamboBambo/Hacker_Rank/blob/master/Data_Structures/Linked_List/Delete_a_Node.py)   |      |       | 20        |
  
 ## Immplementation
 | Dificulty | Title                                                                              | Solution                                                                                           | Time | Space | Max Score |
 |-----------|------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|------|-------|-----------|
-| Easy      | [Grading Students](https://www.hackerrank.com/challenges/grading/problem)          | [Python](https://github.com/RamboBambo/Hacker_Rank/blob/master/Implementation/Grading_students.py) |      |       |           |
+| Easy      | [Grading Students](https://www.hackerrank.com/challenges/grading/problem)          | [Python](https://github.com/RamboBambo/Hacker_Rank/blob/master/Implementation/Grading_Students.py) |      |       |           |
 | Easy      | [Apple and Orange](https://www.hackerrank.com/challenges/apple-and-orange/problem) | [Python](https://github.com/RamboBambo/Hacker_Rank/blob/master/Implementation/Apple_and_Orange.py) |      |       |           |
-| Easy      | [Apple and Orange](https://www.hackerrank.com/challenges/between-two-sets/problem) | [Python](https://github.com/RamboBambo/Hacker_Rank/blob/master/Implementation/Between_Two_Sets.py) |      |       |           |
+| Easy      | [Between two Sets](https://www.hackerrank.com/challenges/between-two-sets/problem) | [Python](https://github.com/RamboBambo/Hacker_Rank/blob/master/Implementation/Between_Two_Sets.py) |      |       |           |
 
 ## Sorting
 | Dificulty | Title                  | Solution                                                                                                 | Time | Space | Max Score |
