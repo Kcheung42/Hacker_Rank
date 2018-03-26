@@ -1,3 +1,14 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    03b.Inorder_Traversal.py                           :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: kcheung <kcheung@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/02/26 14:10:14 by kcheung           #+#    #+#              #
+#    Updated: 2018/03/19 20:17:54 by kcheung          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
 
 """
 Node is defined as
@@ -17,7 +28,7 @@ def inOrder(root):
 	current = root
 	s = []
 	while(True):
-		if current is not None:
+		if current:
 			s.append(current)
 			current = current.left
 		else:
@@ -39,3 +50,4 @@ root.right.right = Node(7)
 print ("Post Order Traversal of binary tree is")
 inOrder(root)
 print('\n', end='')
+

@@ -1,3 +1,15 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    02b.Postorder_traversal.py                         :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: kcheung <kcheung@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/02/26 14:10:06 by kcheung           #+#    #+#              #
+#    Updated: 2018/02/26 14:10:08 by kcheung          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
 #!/bin/python3
 class Node:
 	def __init__(self, data):
@@ -44,4 +56,3 @@ root.right.right = Node(7)
 print ("Post Order Traversal of binary tree is")
 postOrder(root)
 print('\n', end='')
-

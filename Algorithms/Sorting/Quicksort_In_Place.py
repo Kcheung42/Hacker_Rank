@@ -6,7 +6,7 @@
 #    By: kcheung <kcheung@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/01/12 16:42:01 by kcheung           #+#    #+#              #
-#    Updated: 2018/01/23 18:55:57 by kcheung          ###   ########.fr        #
+#    Updated: 2018/03/26 15:55:45 by kcheung          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 # T:O(n^2) S(log(n))
@@ -23,7 +23,7 @@ def partition(arr, start, end):
 
 def quickSortHelper(arr, start, end):
 	if start < end:
-		pi = partition(arr, start, end)
+		p = partition(arr, start, end)
 		quickSortHelper(arr, start, pi - 1)
 		quickSortHelper(arr, pi + 1,  end)
 
